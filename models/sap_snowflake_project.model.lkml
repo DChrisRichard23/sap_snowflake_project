@@ -10,15 +10,22 @@ datagroup: sap_snowflake_project_default_datagroup {
 
 persist_with: sap_snowflake_project_default_datagroup
 
-explore: acdoca {}
+#explore: acdoca {}
 
-explore: adcp {}
+#explore: adcp {}
 
-explore: adr2 {}
+#explore: adr2 {}
 
-explore: adrc {}
+#explore: adrc {}
 
-explore: adrcity {}
+#explore: adrcity {}
+
+explore: billing_document_test {
+  view_name: "billing_document_test"
+  label: "Billing Document-SD"
+
+}
+
 
 explore: adrp {}
 
